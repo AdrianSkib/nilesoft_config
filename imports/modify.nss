@@ -27,6 +27,12 @@ modify(find="*Add to favourites*"
 modify(find="*Copy as path*"
 	vis=vis.remove)
 
+modify(find="*Dropbox*"
+	vis=vis.remove)
+
+modify(find="*Transfer a copy*"
+	vis=vis.remove)
+
 modify(type="recyclebin" where=window.is_desktop and this.id==id.empty_recycle_bin pos=1 sep)
 
 modify(find="unpin*" pos="bottom" menu=title.more_options)
